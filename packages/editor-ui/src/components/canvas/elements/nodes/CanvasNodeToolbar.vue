@@ -158,7 +158,6 @@ function onMouseLeave() {
 	border-radius: var(--border-radius-base);
 
 	:global(.button) {
-		--button-font-color: var(--color-text-light);
 	}
 }
 

@@ -245,7 +245,7 @@ function hideGithubButton() {
 				@update:model-value="onTabSelected"
 			/>
 		</div>
-		<div v-if="showGitHubButton" class="github-button hidden-sm-and-down">
+		<!-- <div v-if="showGitHubButton" class="github-button hidden-sm-and-down">
 			<div class="github-button-container">
 				<GithubButton
 					href="https://github.com/n8n-io/n8n"
@@ -263,7 +263,7 @@ function hideGithubButton() {
 					@click="hideGithubButton"
 				/>
 			</div>
-		</div>
+		</div> -->
 	</div>
 </template>
 

@@ -25,7 +25,7 @@
 
 	&:hover {
 		color: var(--chat--button--hover--color, var(--chat--color-light));
-		background-color: var(--chat--button--hover--background, var(--chat--color-primary-shade-50));
+		background-color: #af6eeb;
 		text-decoration: none;
 	}
 

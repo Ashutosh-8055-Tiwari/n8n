@@ -199,9 +199,9 @@ The Chat window is entirely customizable using CSS variables.
 
 ```css
 :root {
-	--chat--color-primary: #e74266;
-	--chat--color-primary-shade-50: #db4061;
-	--chat--color-primary-shade-100: #cf3c5c;
+	--chat--color-primary: #af6eeb;
+	--chat--color-primary-shade-50: #af6eeb;
+	--chat--color-primary-shade-100:#af6eeb;
 	--chat--color-secondary: #20b69e;
 	--chat--color-secondary-shade-50: #1ca08a;
 	--chat--color-white: #ffffff;

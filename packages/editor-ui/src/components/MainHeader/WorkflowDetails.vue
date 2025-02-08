@@ -557,7 +557,7 @@ function showCreateWorkflowSuccessToast(id?: string) {
 
 <template>
 	<div :class="$style.container">
-		<BreakpointsObserver :value-x-s="15" :value-s-m="25" :value-m-d="50" class="name-container">
+		<!-- <BreakpointsObserver :value-x-s="15" :value-s-m="25" :value-m-d="50" class="name-container">
 			<template #default="{ value }">
 				<ShortenName :name="name" :limit="value" :custom="true" test-id="workflow-name-input">
 					<template #default="{ shortenedName }">
@@ -575,7 +575,7 @@ function showCreateWorkflowSuccessToast(id?: string) {
 					</template>
 				</ShortenName>
 			</template>
-		</BreakpointsObserver>
+		</BreakpointsObserver> -->
 
 		<span v-if="settingsStore.areTagsEnabled" class="tags" data-test-id="workflow-tags-container">
 			<WorkflowTagsDropdown
@@ -733,7 +733,7 @@ $--header-spacing: 20px;
 	white-space: nowrap;
 
 	&:hover {
-		color: $color-primary;
+		color: #af6eeb;
 	}
 }
 
